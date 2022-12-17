@@ -11,9 +11,10 @@ width: double.infinity,
 child: ElevatedButton(
 style: ElevatedButton.styleFrom(
 primary: Colors.cyan,
-  onPrimary: Colors.orange
+  onPrimary: Colors.yellowAccent
 ),
 child: Text(answerText),
+
 onPressed: selectHandler,
 ),
 );
